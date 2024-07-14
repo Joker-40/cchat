@@ -9,7 +9,7 @@ function App() {
   return (
     <div style={{ height: "100vh", width: "100vw" }}>
       <div className="App">
-        <SendbirdProvider accessToken='c48b6eb862ac46d735d299fb6553efad5a64b094' appId={"FBC2144A-9257-4C73-819B-60A6EA36F39E"} userId={"sendbird_desk_agent_id_abbafcea-e238-43c2-9ae9-bf1242aca504"} nickname={"Prithick Samui"}>
+        {/* <SendbirdProvider accessToken='' appId={""} userId={""} nickname={"Prithick Samui"}>
           <>
             <div className="sendbird-app__channellist-wrap">
               <GroupChannelList
@@ -26,7 +26,7 @@ function App() {
               <GroupChannel channelUrl={currentChannelUrl!} />
             </div>
           </>
-        </SendbirdProvider>
+        </SendbirdProvider> */}
       </div>
     </div>
   );
